@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+		<title> Login de Usuário </title>
+
+</head>
+	<body>
+	<div id="interface">
+
+	<header id="cabecalho">
+		<h1> Mineirinho explosivo</h1>
+		<h1  class="titulol" > Login </h1>
+		</header><br>
+     		
+			<form method="post" autocomplete="off" id="formlogin" name="formlogin" action="jogo.html">
+					<label class="login">Usuário: </label>
+							<input type="text" autocomplete="off" name="login" pattern=".{1,20}" title="Seu login precisa ter no máximo 20 caracteres" id="login"/>
+				<br><br>
+				<label class="login"> Senha:  </label>
+					<input type="password" name="senha" id="senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br>
+				<p ><input class="btn" type="submit" value="Confirmar"></p>
+			</form><br>
+			<p>Não cadastrado? Crie sua conta!</p>
+			<input type="button" class="voltar" value="Cadastro" onClick="window.location.href='cadastro.html';">
+</div>
+</body>
+</html>

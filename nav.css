@@ -1,0 +1,24 @@
+  nav {
+    display: flex;
+    position: sticky;
+    padding: 0px 10px;
+    background-color: #626962;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .navegacao {
+    padding: 10px;
+    text-decoration: none;
+    color: #d3ded3;
+  }
+
+  .navegacao:hover {
+    background-color: #20211f;
+    color: white;
+    border-radius: 2px;
+  }
+
+  #perfil {
+    margin-left: auto;
+  }

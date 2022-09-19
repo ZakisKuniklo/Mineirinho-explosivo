@@ -1,0 +1,137 @@
+body{
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #d3ded3;
+}
+
+input {
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+input[type=button]{
+	padding: 5px;
+	border: none;
+  	padding: 5px;
+  	background-color: #5fa15f;
+  	border-radius: 5px;
+	color: white;
+}
+
+input[type=button]:hover{
+	background-color: #3e7a3e;
+}
+
+input[type=submit]{
+	border: none;
+	padding: 5px;
+	background-color: #5fa15f;
+	color: white;
+	border-radius: 5px;
+}
+
+input[type=button].voltar{
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(245, 245, 245);
+	color: black;
+}
+
+input[type=submit]:hover{
+	background-color: #3e7a3e;
+}
+
+input[type=button].voltar:hover{
+	background-color: rgb(196, 196, 196);
+}
+
+
+.login { 
+	display: flex;
+	justify-content: center;
+}
+
+.titulol{
+	margin-top: 8%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border-radius:20px;
+	width: 80%;
+}
+
+td, th{
+	border: 2px solid #626962;
+	padding: 8px;
+  }
+
+th{
+	background-color: #626962;
+	color: #d3ded3;
+}
+
+tr:nth-child(even){
+	background-color: #bec7be;
+}
+
+tr:hover{
+	background-color: #20211f;
+	color: white;
+}
+
+.top_bar{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 411px;
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.hp{
+	margin-top: 10px;
+}
+
+
+
+.tabuleiro {
+	padding: 0px;
+	table-layout: fixed;
+	color: white;
+	border-color: rgb(0 70 0);
+}
+
+td.tabuleiro {
+	background-image: url('images/grass.png');
+}
+
+tr.tabuleiro {
+	height: 40px;
+}
+
+tr.tabuleiro:hover {
+	background-color: #d3ded3;
+	color: black;
+}
+
+tr.tabuleiro:nth-child(even) {
+	background-color: #d3ded3;
+}
+
+.form {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}

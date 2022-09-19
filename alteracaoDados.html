@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+<title> Alteração de Dados</title>
+</head>
+
+<body>
+
+<nav>
+  <a href="jogo.html" class="navegacao">Jogo</a>
+  <a href="ranking.htm" class="navegacao">Ranking</a>
+  <a href="Perfil.html"  id="perfil" class="navegacao">Perfil</a>
+</nav>
+
+<br><br><h1>Alteração de Dados</h1><br>
+<div id="interface">
+	<h2>Alterar login</h2>
+	<form method="POST" action="login.html" autocomplete="off" >
+		<label>Login:</label>
+			<input type="text" autocomplete="off" name="login" placeholder='Seu Login' title="Seu login precisa ter no máximo 50 caracteres" id="login">
+		<input type="submit" value="alterar Login" id="altLogin" name="altLogin">
+  	</form><br>
+
+  	<h2>Alterar senha</h2>
+	<form method="POST" action="login.html" autocomplete="off" >
+		<label>Senha antiga: </label>
+			<input type="password" name="senha" id="senha"  placeholder='Sua senha'  title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br><br>
+		<label>Nova senha: </label>
+			<input type="text" name="nsenha" id="nsenha"  placeholder='Sua nova senha'  title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br><br>
+		<label>Confirmar nova senha: </label>
+			<input type="text" name="cnsenha" id="cnsenha"  placeholder='Confirmar nova senha'  title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br><br>
+		<input type="submit" value="alterar senha" id="altsenha" name="altsenha">
+  	</form><br>
+
+  	<h2>Alterar nome</h2>
+  	<form method="POST" action="login.html" autocomplete="off" >
+	<label>nome:</label>
+			<input type="text" autocomplete="off" name="nome" placeholder='Seu Nome' title="Seu nome precisa ter no máximo 50 caracteres" id="nome">
+	<input type="submit" value="Alterar nome" id="altnome" name="altnome">
+  	</form><br>
+
+  	<h2>Alterar email</h2>
+  	<form method="POST" action="login.html" autocomplete="off" >
+	<label>Email:</label>
+			<input type="email" autocomplete="off" name="email"  placeholder='exemplo@exemplo.com' title="insira seu endereço de email" id="email">
+	<input type="submit" value="Alterar email" id="altemail" name="altemail">
+  	</form><br>
+
+  	<h2>Alterar CPF</h2>
+  	<form method="POST" action="login.html" autocomplete="off" >
+	<label>CPF:</label>
+		<input type="text" name="cpf" autocomplete="off" maxlength="14" title="insira seu CPF Completo" placeholder="000.000.000.00" />
+	<input type="submit" value="Alterar CPF" id="altcpf" name="altcpf">
+  	</form><br>
+
+  	<h2>Alterar data de nascimento</h2>
+  	<form method="POST" action="login.html" autocomplete="off" >
+	<label>Nascimento: </label>
+		<input type="date" autocomplete="off" name="nascto" id="nascto">
+	<input type="submit" value="Alterar data" id="altnascto" name="altnascto">
+  	</form><br>
+
+  	<h2>Alterar telefone celular</h2>
+  	<form method="POST" action="login.html" autocomplete="off" >
+	<label>Telefone Celular:</label>
+			<input type="text" autocomplete="off" name="telefone" placeholder="+55 (00) 9 0000-0000" title="insira seu número de telefone Completo" maxlength="16"  class="telefone" id="telefone"/>
+	<input type="submit" value="Alterar telefone" id="alttel" name="alttel">
+  </form><br><br>
+
+	<input type="button" class="voltar" value="Voltar" onClick="history.go(-1)"><br><br>
+</div>
+</body>
+</html>

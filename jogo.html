@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <script src="jogo.js"></script>
+    <title>Jogo</title>
+</head>
+
+
+
+<body>
+
+    <nav>
+        <a href="jogo.html" class="navegacao">Jogo</a>
+        <a href="ranking.htm" class="navegacao">Ranking</a>
+        <a href="Perfil.html" id="perfil" class="navegacao">Perfil</a>
+    </nav>
+
+    
+
+    <div>
+
+        <h2>Mineirinho explosivo</h2><br><br>
+        
+      <div id="timerpt">
+    
+        
+  </div>
+      
+        <div id='tabuleiro'>
+            <div id="interface" class="form">
+                <h1><br>Opções do jogo<br><br></h1>
+                <form id="formulario" name="formulario" autocomplete="off" action="file:///C:/Users/Computador/Desktop/Site-SI401-main/Site-SI401-main/jogo.html#" class="form">
+                    <label>Tamanho do Grid:</label>
+                    <input type="number" id="grid" name="grid" min="2" value="2" max="100" onchange="change()">
+                    <br>
+                    <label>Número de Bombas:</label>
+                    <input type="number" id="qtbombas" name="qtbombas">
+                    <br>
+                    <label>Modo de Jogo:</label>
+                    <select id="modo" name="modo">
+                        <option value="Classico">Clássico</option>
+                        <option value="Rivotril">Rivotril</option>
+                    </select>
+                </form>
+                <br>
+                <input class="form" type="button" value="começar" id="comecar" name="comecar" onclick="comecar()">
+            </div>
+        </div>            
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+<title> Cadastro de Usuário </title>
+</head>
+<body>
+
+<br><br><h1>Cadastro de usuário</h1><br><br>
+<div id="interface">
+	<form method="POST" action="login.html" autocomplete="off" >
+		<label>Login:</label>
+			<input type="text" autocomplete="off" name="login" placeholder='Seu Login' title="Seu login precisa ter no máximo 50 caracteres" id="login"><br><br>
+		<label>Senha: </label>
+			<input type="text" name="senha" id="senha"  placeholder='Sua senha'  title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br><br>
+		<label>Confirmar senha: </label>
+			<input type="text" name="Csenha" id="Confsenha"  placeholder='Confirmar senha'  title="Sua senha precisa ter no mínimo um número, uma letra minúscula e uma maiúscula, um '_' opcional e ter no mínimo 8 caracteres e no máximo 16"/><br><br>
+	<label>nome:</label>
+			<input type="text" autocomplete="off" name="nome" placeholder='Seu Nome' title="Seu nome precisa ter no máximo 50 caracteres" id="nome"><br><br>
+	<label>Email:</label>
+			<input type="email" autocomplete="off" name="email"  placeholder='exemplo@exemplo.com' title="insira seu endereço de email" id="email"><br><br>
+	<label>CPF:</label>
+		<input type="text" name="cpf" autocomplete="off" maxlength="14" title="insira seu CPF Completo" placeholder="000.000.000.00" /><br><br>
+	<label>Nascimento: </label>
+		<input type="date" autocomplete="off" name="nascto" id="nascto"><br><br>
+	<label>Telefone Celular:</label>
+			<input type="text" autocomplete="off" name="telefone" placeholder="+55 (00) 9 0000-0000" title="insira seu número de telefone Completo" maxlength="16"  class="telefone" id="telefone"/><br><br>
+	<input type="submit" value="cadastrar" id="cadastrar" name="cadastrar"><br><br>
+  </form>
+	<input type="button" class="voltar" value="Voltar" onClick="window.location.href='login.html';"><br><br>
+</div>
+</body>
+</html>
